@@ -47,7 +47,7 @@ services:
       - logs:/home/frappe/frappe-bench/logs
 
   create-site:
-    image: frappe/erpnext:lastes
+    image: frappe/erpnext:latest
     networks:
       - frappe_network
     deploy:
